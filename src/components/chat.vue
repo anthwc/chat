@@ -1,5 +1,6 @@
 <!--聊天内容区域-->
 <template>
+
   <div class="container">
     <van-nav-bar :title="toUserInfo.name" left-arrow @click-left="back" />
     <ul id="content">
